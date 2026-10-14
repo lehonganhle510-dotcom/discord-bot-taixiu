@@ -128,3 +128,9 @@ async def taixiu(
 
 # Thay 'TOKEN_CUA_BAN' bằng Token Bot Discord thực tế của bạn
 client.run("CHUA_CO_TOKEN")
+from keep_alive import keep_alive
+
+# Gọi hàm này ngay trước khi bot run
+keep_alive()
+
+# Code chạy bot của bạn ở dưới (Ví dụ: client.run('TOKEN'))
